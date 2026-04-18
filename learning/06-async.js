@@ -1,5 +1,4 @@
-// These functions simulate slow operations
-// setTimeout is essentially "do this after x milliseconds"
+// These functions simulate slow operations - setTimeout is "do this after x milliseconds"
 const fetchTickets = () => {
     return new Promise((resolve) => {
         console.log("Fetching tickets from database...");
